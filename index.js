@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send("Hola");
+  res.send("<h1>Ejecutando en aws EC</h1>");
 });
 
 
